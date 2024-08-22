@@ -1,0 +1,315 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif; 
+}
+
+.cont{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 1200px;
+}
+
+.hero {
+    background: url('GH.webp') no-repeat center top/cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0 90px; 
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.hero .bttns {
+    background: #964f20;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block; 
+    margin: 0 10 50px; 
+}
+
+
+.hero .bttns:hover {
+    background: #e55a00;
+    transform: translateY(-3px);
+}
+.aboutpage {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.aboutcontent {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.aboutpage h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Lato';
+}
+
+.aboutimage {
+    flex: 1;
+}
+
+.aboutimage img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.servicespage {
+    text-align: center;
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+.servicespage h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.servicepage {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.servicepage i {
+    font-size: 2.5em;
+    color: #ff6600;
+    margin-bottom: 15px;
+}
+
+.servicepage h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.servicepage p {
+    font-size: 1.1em;
+}
+
+.internshipspage {
+    padding: 50px 0;
+}
+
+.internshipspage h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.test {
+    flex: 1;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.test p {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.test h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
+.storiespage {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.storiespage h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.storypage {
+    display: inline-block;
+    width: 45%;
+    margin: 0 2.5%;
+    vertical-align: top;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.storypage h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.storypage p {
+    font-size: 1.1em;
+}
+
+.contactpage {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contactpage h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.contactpage form {
+    display: inline-block;
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+}
+
+.contactpage form input, .contactpage form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contactpage form button {
+    background: #ff6600;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contactpage form button:hover {
+    background: #e55a00;
+}
+
+.footerpage {
+    background: #141730f2;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footerpage .linkspage {
+    margin-bottom: 20px;
+}
+
+.footerpage .linkspage a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footerpage .linkspage a:hover {
+    text-decoration: underline;
+}
+
+.footerpage .icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+
+.footerpage p {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+.navbar {
+    background: #141730f2;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navlink {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .navlink li {
+    margin-left: 20px;
+}
+
+.navbar .navlink a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.navbar .navlink a:hover {
+    background: #ff6600;
+    border-radius: 5px;
+}
+
+body {
+    padding-top: 60px; 
+}
+
+.servicepage,.storypage,.aboutimage, .test {
+    transition: transform 0.3s ease-in-out;
+}
+
+.servicepage:hover,.storypage:hover, .aboutimage:hover, .test:hover {
+    transform: scale(1.05);
+}
+
+.hero .bttns{
+    transition: background 0.3s ease-in-out;
+}
+
+.hero .bttns:hover {
+    background:#ff6600;
+}
+
+   
